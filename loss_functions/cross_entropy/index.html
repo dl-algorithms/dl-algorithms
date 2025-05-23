@@ -9,20 +9,22 @@
       
       
       
+        <link rel="prev" href="../..">
       
-        <link rel="next" href="loss_functions/cross_entropy/">
+      
+        <link rel="next" href="../kl_divergence/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
       
-        <title>DL Algorithms</title>
+        <title>Cross Entropy - DL Algorithms</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
       
       
 
@@ -41,7 +43,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -60,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#deep-learning-algorithms" class="md-skip">
+        <a href="#cross-entropy" class="md-skip">
           Skip to content
         </a>
       
@@ -76,7 +78,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="DL Algorithms" class="md-header__button md-logo" aria-label="DL Algorithms" data-md-component="logo">
+    <a href="../.." title="DL Algorithms" class="md-header__button md-logo" aria-label="DL Algorithms" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -96,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Deep Learning Algorithms
+              Cross Entropy
             
           </span>
         </div>
@@ -174,7 +176,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="DL Algorithms" class="md-nav__button md-logo" aria-label="DL Algorithms" data-md-component="logo">
+    <a href="../.." title="DL Algorithms" class="md-nav__button md-logo" aria-label="DL Algorithms" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -187,6 +189,68 @@
     
       
       
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Deep Learning Algorithms
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Loss functions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Loss functions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
     
@@ -206,7 +270,7 @@
   
   
   <span class="md-ellipsis">
-    Deep Learning Algorithms
+    Cross Entropy
     
   </span>
   
@@ -214,12 +278,12 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="." class="md-nav__link md-nav__link--active">
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Deep Learning Algorithms
+    Cross Entropy
     
   </span>
   
@@ -242,20 +306,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#introduction" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
+      Introduction
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pseudo-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pseudo code
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#avoid-integer-overflow" class="md-nav__link">
     <span class="md-ellipsis">
-      Project layout
+      Avoid Integer overflow !
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Code
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -266,66 +354,6 @@
     </li>
   
 
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    Loss functions
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2">
-            <span class="md-nav__icon md-icon"></span>
-            Loss functions
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="loss_functions/cross_entropy/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Cross Entropy
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
               
             
               
@@ -335,7 +363,7 @@
   
   
     <li class="md-nav__item">
-      <a href="loss_functions/kl_divergence/" class="md-nav__link">
+      <a href="../kl_divergence/" class="md-nav__link">
         
   
   
@@ -385,20 +413,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#introduction" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
+      Introduction
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pseudo-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pseudo code
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#avoid-integer-overflow" class="md-nav__link">
     <span class="md-ellipsis">
-      Project layout
+      Avoid Integer overflow !
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Code
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -418,19 +470,83 @@
 
 
 
-<h1 id="deep-learning-algorithms">Deep Learning Algorithms</h1>
-<h2 id="commands">Commands</h2>
+<h1 id="cross-entropy">Cross Entropy</h1>
+<h2 id="introduction">Introduction</h2>
+<p>This blog will cover a very simple exercise, coding Cross entropy loss from scratch such that the loss value for a random <code>(input,target)</code> pair from our implementation is the same as the loss from PyTorch’s cross Entropy implementation</p>
+<p><img alt="image.png" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/b984b9cf-d72e-4aae-9b3e-0153dd84e0f6/4a4a2330-4125-4266-9b25-c790f1e5f332/image.png" /></p>
+<h3 id="pseudo-code">Pseudo code</h3>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project. (Not useful)</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>We will have a input logits of shape (Batch, number of classes) . For our sample we have a batch size of 3 and 5 classes.</li>
+<li>The targets will be integers of shape (batch, 1) . They will be integers between [0, num_classes -1]</li>
+<li>logits can be negative as well and in any scale ! not necessary between 0 and 1</li>
+<li>Step 1: We have to apply softmax for each row ( for each sample in a batch)</li>
+<li>Step 2: Choose the likelihood corresponding to target class and apply
+  <code>-log(probability_of_correct_class)</code> on it</li>
+<li>Step 3: take the mean of all log probabilities in a batch</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
+<h3 id="avoid-integer-overflow">Avoid Integer overflow !</h3>
+<p>Note that to calculate softmax we have to take the exponent of the logits. For logits as big as 1000, the computer doesn’t have enough bits to store this large number! To avoid this we do a neat trick</p>
+<p>In simple Words, <strong>subtracting a constant from the logits , won’t change their softmax probability</strong></p>
+<p><img alt="image.png" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/b984b9cf-d72e-4aae-9b3e-0153dd84e0f6/84c87b51-d934-4498-889f-85d9ca556810/image.png" /></p>
+<p><img alt="image.png" src="https://prod-files-secure.s3.us-west-2.amazonaws.com/b984b9cf-d72e-4aae-9b3e-0153dd84e0f6/ec95f334-0dbf-47d5-8ffa-e597b71196d4/image.png" /></p>
+<p>As you can see, the e^c terms cancel out in both numerator and denominator, proving that subtracting any constant (in our case, the maximum value) from all logits gives us the same softmax probabilities, but in a numerically stable way.</p>
+<p>The key step is that e^{x-c} = e^x/e^c, which lets the common factor e^c cancel out in the final division.</p>
+<h3 id="code">Code</h3>
+<pre><code class="language-python">import torch
+import numpy as np
+
+def cross_entropy_loss(predictions, targets):
+    &quot;&quot;&quot;
+    Custom implementation of cross entropy loss
+
+    Args:
+        predictions: Raw model output logits of shape (batch_size, num_classes)
+        targets: Ground truth labels of shape (batch_size,)
+
+    Returns:
+        loss: Mean cross entropy loss across the batch
+    &quot;&quot;&quot;
+    # Get batch size
+    batch_size = predictions.shape[0]
+
+    # Apply softmax to get probabilities
+    exp_preds = np.exp(predictions - np.max(predictions, axis=1, keepdims=True))
+    softmax_preds = exp_preds / np.sum(exp_preds, axis=1, keepdims=True)
+
+    # Get predicted probability for the correct class
+    correct_class_probs = softmax_preds[range(batch_size), targets]
+
+    # Calculate negative log likelihood
+    loss = -np.log(correct_class_probs + 1e-7)  # Add small epsilon for numerical stability
+
+    # Return mean loss
+    return np.mean(loss)
+
+# Test the implementation
+if __name__ == &quot;__main__&quot;:
+    # Generate sample data
+    np.random.seed(42)
+    batch_size = 3
+    num_classes = 4
+
+    # Create random logits and targets
+    logits = np.random.randn(batch_size, num_classes)
+    targets = np.random.randint(0, num_classes, size=batch_size)
+
+    # Calculate loss using our implementation
+    custom_loss = cross_entropy_loss(logits, targets)
+
+    # Calculate loss using PyTorch
+    torch_logits = torch.FloatTensor(logits)
+    torch_targets = torch.LongTensor(targets)
+    torch_loss = torch.nn.CrossEntropyLoss()(torch_logits, torch_targets)
+
+    print(&quot;Input logits:&quot;)
+    print(logits)
+    print(&quot;\nTarget labels:&quot;, targets)
+    print(&quot;\nCustom implementation loss:&quot;, custom_loss)
+    print(&quot;PyTorch implementation loss:&quot;, torch_loss.item())
+    print(&quot;\nDifference:&quot;, abs(custom_loss - torch_loss.item()))
 </code></pre>
 
 
@@ -438,6 +554,9 @@ docs/
 
 
 
+
+  
+  
 
 
 
@@ -480,10 +599,10 @@ docs/
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
     
   </body>
