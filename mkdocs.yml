@@ -1,2 +1,7 @@
 site_name: DL Algorithms
-theme: material
+theme:
+  name: material
+
+plugins:
+  - search
+  - blog
