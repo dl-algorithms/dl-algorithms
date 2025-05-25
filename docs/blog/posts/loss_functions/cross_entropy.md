@@ -7,6 +7,13 @@ links:
   - Homepage: index.md
   - External links:
       - Material documentation: https://squidfunk.github.io/mkdocs-material
+categories:
+  - Loss Functions
+tags:
+  - Classification
+  - Loss Functions
+authors:
+  - team
 ---
 
 # Cross Entropy
@@ -17,7 +24,7 @@ This blog will cover a very simple exercise, coding Cross entropy loss from scra
 
 <!-- more -->
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b984b9cf-d72e-4aae-9b3e-0153dd84e0f6/4a4a2330-4125-4266-9b25-c790f1e5f332/image.png)
+![image.png](images/cross_entropy_1.png)
 
 ### Pseudo code
 
@@ -35,9 +42,9 @@ Note that to calculate softmax we have to take the exponent of the logits. For l
 
 In simple Words, **subtracting a constant from the logits , won’t change their softmax probability**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b984b9cf-d72e-4aae-9b3e-0153dd84e0f6/84c87b51-d934-4498-889f-85d9ca556810/image.png)
+![image.png](images/cross_entropy_2.png)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b984b9cf-d72e-4aae-9b3e-0153dd84e0f6/ec95f334-0dbf-47d5-8ffa-e597b71196d4/image.png)
+![image.png](images/cross_entropy_3.png)
 
 As you can see, the e^c terms cancel out in both numerator and denominator, proving that subtracting any constant (in our case, the maximum value) from all logits gives us the same softmax probabilities, but in a numerically stable way.
 

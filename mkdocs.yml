@@ -1,7 +1,29 @@
 site_name: DL Algorithms
 theme:
   name: material
+  features:
+    - navigation.indexes
 
 plugins:
   - search
-  - blog
+  - blog:
+      blog_toc: true
+      archive_date_format: MMMM yyyy
+      categories_allowed:
+        - Loss Functions
+  - tags:
+      tags_allowed:
+        - Loss Functions
+        - Classification
+        - Regression
+        - Clustering
+        - Dimensionality Reduction
+        - Generative Models
+        - Reinforcement Learning
+
+nav:
+  - Home: index.md
+  - Blog:
+      - blog/index.md
+      - Tags:
+          - blog/tags.md
