@@ -1,6 +1,13 @@
 ---
 date:
   created: 2025-05-21
+  updated: 2025-05-23
+pin: true
+links:
+  - Homepage: index.md
+  - Blog Index: 
+  - External links:
+      - Material documentation: https://squidfunk.github.io/mkdocs-material
 ---
 
 # Cross Entropy
@@ -8,6 +15,8 @@ date:
 ## Introduction
 
 This blog will cover a very simple exercise, coding Cross entropy loss from scratch such that the loss value for a random `(input,target)` pair from our implementation is the same as the loss from PyTorch’s cross Entropy implementation
+
+<!-- more -->
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b984b9cf-d72e-4aae-9b3e-0153dd84e0f6/4a4a2330-4125-4266-9b25-c790f1e5f332/image.png)
 
